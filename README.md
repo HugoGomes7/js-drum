@@ -3,7 +3,11 @@
 
 # About the project
 
-......
+The event of listening to keyboard keys was used to identify which key was pressed and after that execute the playSound function.
+
+In the functionality of composing a song when there is a click event on the Play button, a function executes everything that was entered by the user inside the composition box.
+
+For that I had to obtain the value of the input using the querySelector and in the playComposition function a scan is made in the array and executed with playSound the keys typed with an interval from one key to another so that all the keys were not executed at the same time.
 
 https://dl-drummer.netlify.app
 
